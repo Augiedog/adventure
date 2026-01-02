@@ -6,19 +6,17 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          To start the Adventure Click Below
-        </p>
+        <h3>Choose Your Own Adventure Game</h3>
         <a
           className="App-link"
-          href='chooseadventure.js'
-          target="_blank"
-          rel="noopener noreferrer"
+          id='chooseAdven'
         >
           Launch Adventure
         </a>
       </header>
+      <script src="./apps/adventure/chooseAdven.js"></script>
     </div>
+    
   );
 }
 
