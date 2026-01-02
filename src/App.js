@@ -7,15 +7,15 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          To start the Adventure Click Below
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href='chooseadventure.js'
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Launch Adventure
         </a>
       </header>
     </div>
