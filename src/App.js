@@ -1,38 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import './chooseAdven.js'
 
 function App() {
 
-  const story  = () => {
-    // script src='chooseAdventure.js'
-    return (
-      <>
-      <h3>Choose Your Own Adventure Game</h3>
-					<button id="chooseAdven" class="btn btn-default smoothScroll"><b>Start Adventure App</b>
-						<img src="./images/dragon.jpg" alt="large dragon shadow" style="width: 60%; height: 60%"></img>
-					</button>					
-					<p>What will your ending be? As a kid I loved the books so this has been a little side project.
-						It's coded as one if-then-else function. Yeah it's a nightmare to maintain, but I keep adding
-						new endings. Perhaps one day it will be something more. For now, have some fun!</p>
-            <script src="./apps/adventure/chooseAdven.js"></script>
-      </>
-    )
-  }
+  // const function1 = () => {
+  //   // script src='chooseAdventure.js'
+  // }
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h3>Choose Your Own Adventure Game</h3>
-        <button id="chooseAdven" class="btn btn-default smoothScroll"><b>Start Adventure App</b>
-						<img src="./images/dragon.jpg" alt="large dragon shadow" style="width: 60%; height: 60%"></img>
-					</button>					
-					<p>What will your ending be? As a kid I loved the books so this has been a little side project.
-						It's coded as one if-then-else function. Yeah it's a nightmare to maintain, but I keep adding
-						new endings. Perhaps one day it will be something more. For now, have some fun!</p>
-            <script src="./apps/adventure/chooseAdven.js"></script>
+        <button id='chooseadven'><b>Start Adventure App</b></button>
       </header>
     </div>
-    
+
   );
 }
 
