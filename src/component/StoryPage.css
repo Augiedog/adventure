@@ -1,0 +1,12 @@
+.story-page {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.story-image {}
+
+.story-text {}
+
+.choices {}
+
+.choice-button {}
