@@ -9,7 +9,13 @@
     height: 27em;
 }
 
-.story-image {}
+.story-image {
+    overflow: auto;
+    text-align: center;
+    border: 10px solid #f7ea41;
+    border-radius: 6px;
+    display: flex;
+}
 
 .story-text {}
 
