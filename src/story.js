@@ -110,6 +110,27 @@ const story = {
             choices: []
         },
 
+        "ignore": {
+            text: "You continue living peacefully with the cats.",
+            image: "",
+            choices: []
+        },
+
+        "spread": {
+            text: "After leaving the cat colony, you are never able to find it again; without proof, no one believes your story, which passes into legend nonetheless. Years later, you hear rumors of a similar colony.",
+            image: "",
+            choices: [
+                {
+                    label: "Investigate the rumors",
+                    next: "investigate"
+                },
+                {
+                    label: "Ignore the rumors",
+                    next: "ignore"
+                }
+            ]
+        },
+
         "layout": {
             text: "",
             image: "",
