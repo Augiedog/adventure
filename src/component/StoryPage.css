@@ -22,6 +22,18 @@
     flex: auto;
 }
 
-.choices {}
+.choices {
+    text-align: center;
+}
 
-.choice-button {}
+.choice-button {
+    width: 200px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #1714dc;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}

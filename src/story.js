@@ -137,7 +137,7 @@ const story = {
             choices: [
                 {
                     label: "Do you join them",
-                    next: "joim"
+                    next: "join"
                 },
                 {
                     label: "Do you leave them?",
