@@ -7,6 +7,8 @@ function App() {
 
   const currentPage = story.pages[currentPageId];
 
+counsle.log(currentPageId, currentPage, 'chapters')
+
   const handleChoice = (nextPageId) => {
     setCurrentPageId(nextPageId);
   };
