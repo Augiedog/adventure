@@ -94,7 +94,7 @@ const story = {
 
         "help": {
             text: "You become a legendary hero, known for your wisdom and kindness.",
-            image: "",
+            image: "/art/105706.jpg",
             choices: []
         },
 
@@ -209,7 +209,7 @@ const story = {
         
           "right-path": {
             text: "You come across a snoring dragon. On the other side of him, you see a shiny chest of treasure past the dragon. Another path would lead you away from the dragon altogether. Which path do you take?",
-            image: "",
+            image: "/art/dragon-sleeping.jpg",
             choices: [
                 {
                     label: "Path past the Dragon",
