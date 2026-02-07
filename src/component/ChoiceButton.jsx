@@ -1,4 +1,4 @@
-import '/ChoiceButton.css'
+import './ChoiceButton.css'
 
 function ChoiceButton({ label, onClick }) {
   return (
