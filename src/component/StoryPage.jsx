@@ -2,7 +2,7 @@ import ChoiceButton from "./ChoiceButton";
 import './StoryPage.css'
 
 function StoryPage({ page, onChoose }) {
-    console.log("props from story", page)
+  // console.log("props from story", page)
   return (
     <div className="story-page">
       {page.image && (
@@ -17,7 +17,7 @@ function StoryPage({ page, onChoose }) {
 
       <div className="choices">
         {page.choices.length === 0 ? (
-          <p>The End</p>
+          <h1>The End</h1>
         ) : (
           page.choices.map((choice, index) => (
             <ChoiceButton

@@ -38,7 +38,7 @@ const story = {
             choices: [
                 {
                     label: "Stay in the cat haven",
-                    next: "stay"
+                    next: "stay-cat"
                 },
                 {
                     label: "Tell the World about this magical place",
@@ -47,7 +47,7 @@ const story = {
             ]
         },
 
-        "stay": {
+        "stay-cat": {
             text: "You live happily amongst the cats for the rest of your days. One day, you find a hidden tunnel in the colony.",
             image: "",
             choices: [
@@ -93,7 +93,7 @@ const story = {
         },
 
         "help": {
-            text: "You become a legendary hero, known for your wisdom and kindness.",
+            text: "You become a legendary hero, known for your wisdom and kindness. And you have some pretty Awesome cat friends!",
             image: "/art/105706.jpg",
             choices: []
         },
@@ -152,7 +152,7 @@ const story = {
             choices: []
         },
 
-          "continue": {
+        "continue": {
             text: "You come across a chamber that reaches upward to a shining light above. There is a long, winding staircase, and a much quicker, but rickety-looking ladder that leads up toward the light. Which do you take?",
             image: "",
             choices: [
@@ -167,7 +167,7 @@ const story = {
             ]
         },
 
-          "ladder": {
+        "ladder": {
             text: "After ascending a few feet up the ladder, one of its rungs snaps, and you comedically fall through each of the rungs below. Sheepish, you return home. However, you notice a hidden passageway in the cave. Do you enter it or ignore it?",
             image: "",
             choices: [
@@ -181,7 +181,7 @@ const story = {
                 }
             ]
         },
-          "enter": {
+        "enter": {
             text: "The passageway leads to a hidden treasure chamber. Do you take the treasure or leave it?",
             image: "",
             choices: [
@@ -195,19 +195,19 @@ const story = {
                 }
             ]
         },
-          "take": {
-            text: "You become incredibly wealthy but live in constant fear of being discovered.",
+        "take": {
+            text: "You become incredibly wealthy, but live in constant fear of being discovered.",
             image: "",
             choices: []
         },
 
-          "staircase": {
+        "staircase": {
             text: "After ascending the staircase, you discover a shiny blue stone, which you take home and cherish forever.",
             image: "",
             choices: []
         },
-        
-          "right-path": {
+
+        "right-path": {
             text: "You come across a snoring dragon. On the other side of him, you see a shiny chest of treasure past the dragon. Another path would lead you away from the dragon altogether. Which path do you take?",
             image: "/art/dragon-sleeping.jpg",
             choices: [
@@ -222,7 +222,58 @@ const story = {
             ]
         },
 
-          "layout": {
+        "past": {
+            text: "The dragon wakes up and sits upright. You only have a moment to respond, are you going to stay or run",
+            image: "",
+            choices: [
+                {
+                    label: "You stay still",
+                    next: "stay-dragon"
+                },
+                {
+                    label: "You run for it",
+                    next: ""
+                }
+            ]
+        },
+
+        "stay-dragon": {
+            text: "You and the dragon have an uplifting conversation about local politics and become lifelong friends. The Dragon's name is Hank and he lets you ride him. One day, Hank asks for your help to retrieve a stolen artifact. Do you help him or decline?",
+            image: "/art/dragon-rider.jpg",
+            choices: [
+                {
+                    label: "Help Hank find the artifact",
+                    next: "help-dragon"
+                },
+                {
+                    label: "",
+                    next: ""
+                }
+            ]
+        },
+        
+        "help-dragon": {
+            text: "You embark on a thrilling adventure with Hank and successfully retrieve the artifact. Do you keep it or give it back to Hank?",
+            image: "",
+            choices: [
+                {
+                    label: "Keep the artifact for your self",
+                    next: "keep-dragon"
+                },
+                {
+                    label: "",
+                    next: ""
+                }
+            ]
+        },
+        
+        "keep-dragon": {
+            text: "Hank is disappointed and dosen't really understand. You two get into a fight. You have gained immense power from the artifact and can easily hold your own against Hank. After laying Hank out unconscious, he never really comes around anymore. You've become lonly as no one understands you. The artifact has givin you a power that nothing can handle.",
+            image: "/art/104310.jpg",
+            choices: []
+        },
+
+        "layout": {
             text: "",
             image: "",
             choices: [

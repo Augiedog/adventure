@@ -15,6 +15,9 @@
     border: 10px solid #f7ea41;
     border-radius: 6px;
     display: flex;
+    flex-basis: content;
+    width: 83%;
+    flex-shrink: inherit;
 }
 
 .story-text {
