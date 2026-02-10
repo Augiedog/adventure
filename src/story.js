@@ -14,10 +14,10 @@ const story = {
                     label: "Take the right path",
                     next: "right-path"
                 },
-{
-label: "dragon",
-next: "monster"
-}
+                {
+                    label: "dragon",
+                    next: "monster.dragon"
+                }
             ]
         },
 
@@ -255,7 +255,7 @@ next: "monster"
                 }
             ]
         },
-        
+
         "help-dragon": {
             text: "You embark on a thrilling adventure with Hank and successfully retrieve the artifact. Do you keep it or give it back to Hank?",
             image: "",
@@ -270,7 +270,7 @@ next: "monster"
                 }
             ]
         },
-        
+
         "keep-dragon": {
             text: "Hank is disappointed and dosen't really understand. You two get into a fight. You have gained immense power from the artifact and can easily hold your own against Hank. After laying Hank out unconscious, he never really comes around anymore. You've become lonly as no one understands you. The artifact has givin you a power that nothing can handle.",
             image: "/art/104310.jpg",
@@ -307,11 +307,7 @@ next: "monster"
         //     ]
         // },
 
-        "monster": {
-            text: "A friendly monster appears and offers you a cookie.",
-            image: "/art/dragon.jpg",
-            choices: []
-        }
+       
     }
 };
 

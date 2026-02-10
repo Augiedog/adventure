@@ -1,8 +1,10 @@
 import { useState } from "react";
 import story from "./story";
+// import monster from "./monster"; 
 import StoryPage from "./component/StoryPage";
 
 function App() {
+  // const [chapterId, setCurrentChapter] = useState(story)
   const [currentPageId, setCurrentPageId] = useState(story.start);
 
   const currentPage = story.pages[currentPageId];
