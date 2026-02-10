@@ -274,7 +274,7 @@ const story = {
         },
 
         "keep-dragon": {
-            text: "Hank is disappointed and dosen't really understand. You two get into a fight. You have gained immense power from the artifact and can easily hold your own against Hank. After laying Hank out unconscious, he never really comes around anymore. You've become lonly as no one understands you. The artifact has givin you a power that nothing can handle.",
+            text: "",
             image: "",
             choices: [
                 {
