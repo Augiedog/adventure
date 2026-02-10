@@ -13,7 +13,11 @@ const story = {
                 {
                     label: "Take the right path",
                     next: "right-path"
-                }
+                },
+{
+label: "dragon",
+next: "monster"
+}
             ]
         },
 
