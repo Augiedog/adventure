@@ -273,8 +273,8 @@ const story = {
             choices: []
         },
 
-        "keep-dragon": {
-            text: "",
+        "give-dragon": {
+            text: "Hank is grateful and you both continue to have many more adventures together.",
             image: "",
             choices: [
                 {
