@@ -250,8 +250,8 @@ const story = {
                     next: "help-dragon"
                 },
                 {
-                    label: "",
-                    next: ""
+                    label: "Decline the offer",
+                    next: "decline"
                 }
             ]
         },
@@ -280,36 +280,100 @@ const story = {
         "give-dragon": {
             text: "Hank is grateful and you both continue to have many more adventures together.",
             image: "",
+            choices: []
+        },
+        
+        "delcine" : {
+text: "Hank is disappointed but respects your decision. You continue to be friends and have smaller adventures together, but you don't get free rides anymore.",
+            image: "",
+            choices: []
+        },
+
+          "run-dragon" : {
+            text: "Quickly, you run back to the cave's entrance. Sheepish, you turn towards home. However, you look down and see a map dropped by the dragon. Do you follow it or discard it?",
+            image: "",
             choices: [
                 {
-                    label: "",
-                    next: ""
+                     label: "follow",
+                next: "follow"
+            },{
+                label: "discard",
+                next: "discard"
+            }]
+          },
+
+ "follow": {
+            text: "The map leads to an ancient ruin filled with traps and treasures. Do you explore or turn back?",
+            image: "",
+            choices: [
+                {
+                    label: "explore",
+                    next: "explore"
                 },
                 {
-                    label: "",
-                    next: ""
+                    label: "turn back",
+                    next: "turn back"
                 }
             ]
         },
-
-        // "layout": {
-        //     text: "",
-        //     image: "",
-        //     choices: [
-        //         {
-        //             label: "",
-        //             next: ""
-        //         },
-        //         {
-        //             label: "",
-        //             next: ""
-        //         }
-        //     ]
-        // },
+           
+        "explore": {
+            text: "You navigate the traps and discover a hidden treasure, becoming wealthy.",
+            image: "",
+            choices: []
+        },
+            
+         "back": {
+            text: "You turn back, falling into a trap! You find yourself hanging from an edge over a cliff with a very long fall. A fariy appears before you and askes give yourself to me or fall",
+            image: "",
+            choices: [
+                {
+                    label: "fall",
+                    next: "fall"
+                },
+                {
+                    label: "give",
+                    next: "give"
+                }
+            ]
+        },
+                 
+    //                     if (sixthAnswer === 'give') {
+    //                         window.alert(`As you slip, and begin to fall the fairy quickly flies to you and everything fades to white! When you awaking you are confused at first, but soon relize you have become a Tree!! The fairies have binded your soul and now your branches cover the forest caonopy. You are where the fairies call home!`)
+    //                     } else if (sixthAnswer === 'fall') {
+    //                         window.alert(`You begin to fall, thinking about your life and all the things you've run from. You manage to orient yourself before the impact! As the flash of light hits your eyes, you wake up in your bed and think "What's for breakfast?"`)
+    //                     }
+    //                 }
+    //             } else if (fourthAnswer === 'discard') {
+    //                 window.alert(`You return home, wondering what had gotton into you. Why you had ever thought you could go on an adventure!`)
+    //             }
+    //         }
+    //     } else if (secondAnswer === 'away') {
+    //         let thirdAnswer = window.prompt(`After walking a while longer, you come across a shiny blue flower. It is so beautiful that you decide you must either "draw" it or "pick" it. Which do you do?`)
+    //         if (thirdAnswer === 'draw') {
+    //             let thirdAnswer = window.alert(`You draw the flower, capturing only a fraction of its beauty with your quill. You bring the drawing home, somewhat disappointed, but over time, discover joy in sharing it with your friends and family, recounting the story of your days as a sorcerer with the aid of the sketch.`)
+    //         } else if (thirdAnswer === 'pick') {
+    //             let thirdAnswer = window.alert(`You pick the flower and bring it home, and all marvel at its brilliance. However, over time it fades and eventually crumbles to dust.`)
+    //         }
+    //     }
+    // }
+    //     "layout": {
+    //         text: "",
+    //         image: "",
+    //         choices: [
+    //             {
+    //                 label: "",
+    //                 next: ""
+    //             },
+    //             {
+    //                 label: "",
+    //                 next: ""
+    //             }
+    //         ]
+    //     },
 
        
     }
 };
 
 export default story;
-
