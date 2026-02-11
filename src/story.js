@@ -308,7 +308,7 @@ text: "Hank is disappointed but respects your decision. You continue to be frien
             choices: [
                 {
                     label: "explore",
-                    next: "explore"
+                    next: "explore-map"
                 },
                 {
                     label: "turn back",
@@ -317,7 +317,7 @@ text: "Hank is disappointed but respects your decision. You continue to be frien
             ]
         },
            
-        "explore": {
+        "explore-map": {
             text: "You navigate the traps and discover a hidden treasure, becoming wealthy.",
             image: "",
             choices: []
@@ -333,7 +333,7 @@ text: "Hank is disappointed but respects your decision. You continue to be frien
                 },
                 {
                     label: "give",
-                    next: "give"
+                    next: "give-into"
                 }
             ]
         },
