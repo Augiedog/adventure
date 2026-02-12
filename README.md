@@ -1,6 +1,6 @@
 # Choose your own Adventure Game 
 
-This is a choose your own adventure we've book
+This is a choose your own adventure book style game
  
 work in progress
 
