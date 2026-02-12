@@ -236,7 +236,7 @@ const story = {
                 },
                 {
                     label: "You run for it",
-                    next: ""
+                    next: "run-dragon"
                 }
             ]
         },
@@ -282,27 +282,27 @@ const story = {
             image: "",
             choices: []
         },
-        
-        "delcine" : {
-text: "Hank is disappointed but respects your decision. You continue to be friends and have smaller adventures together, but you don't get free rides anymore.",
+
+        "delcine": {
+            text: "Hank is disappointed but respects your decision. You continue to be friends and have smaller adventures together, but you don't get free rides anymore.",
             image: "",
             choices: []
         },
 
-          "run-dragon" : {
+        "run-dragon": {
             text: "Quickly, you run back to the cave's entrance. Sheepish, you turn towards home. However, you look down and see a map dropped by the dragon. Do you follow it or discard it?",
             image: "",
             choices: [
                 {
-                     label: "follow",
-                next: "follow"
-            },{
-                label: "discard",
-                next: "discard"
-            }]
-          },
+                    label: "follow",
+                    next: "follow"
+                }, {
+                    label: "discard",
+                    next: "discard"
+                }]
+        },
 
- "follow": {
+        "follow": {
             text: "The map leads to an ancient ruin filled with traps and treasures. Do you explore or turn back?",
             image: "",
             choices: [
@@ -312,18 +312,18 @@ text: "Hank is disappointed but respects your decision. You continue to be frien
                 },
                 {
                     label: "turn back",
-                    next: "turn back"
+                    next: "back"
                 }
             ]
         },
-           
+
         "explore": {
             text: "You navigate the traps and discover a hidden treasure, becoming wealthy.",
             image: "",
             choices: []
         },
-            
-         "back": {
+
+        "back": {
             text: "You turn back, falling into a trap! You find yourself hanging from an edge over a cliff with a very long fall. A fariy appears before you and askes give yourself to me or fall",
             image: "",
             choices: [
@@ -337,42 +337,61 @@ text: "Hank is disappointed but respects your decision. You continue to be frien
                 }
             ]
         },
-                 
-    //                     if (sixthAnswer === 'give') {
-    //                         window.alert(`As you slip, and begin to fall the fairy quickly flies to you and everything fades to white! When you awaking you are confused at first, but soon relize you have become a Tree!! The fairies have binded your soul and now your branches cover the forest caonopy. You are where the fairies call home!`)
-    //                     } else if (sixthAnswer === 'fall') {
-    //                         window.alert(`You begin to fall, thinking about your life and all the things you've run from. You manage to orient yourself before the impact! As the flash of light hits your eyes, you wake up in your bed and think "What's for breakfast?"`)
-    //                     }
-    //                 }
-    //             } else if (fourthAnswer === 'discard') {
-    //                 window.alert(`You return home, wondering what had gotton into you. Why you had ever thought you could go on an adventure!`)
-    //             }
-    //         }
-    //     } else if (secondAnswer === 'away') {
-    //         let thirdAnswer = window.prompt(`After walking a while longer, you come across a shiny blue flower. It is so beautiful that you decide you must either "draw" it or "pick" it. Which do you do?`)
-    //         if (thirdAnswer === 'draw') {
-    //             let thirdAnswer = window.alert(`You draw the flower, capturing only a fraction of its beauty with your quill. You bring the drawing home, somewhat disappointed, but over time, discover joy in sharing it with your friends and family, recounting the story of your days as a sorcerer with the aid of the sketch.`)
-    //         } else if (thirdAnswer === 'pick') {
-    //             let thirdAnswer = window.alert(`You pick the flower and bring it home, and all marvel at its brilliance. However, over time it fades and eventually crumbles to dust.`)
-    //         }
-    //     }
-    // }
-    //     "layout": {
-    //         text: "",
-    //         image: "",
-    //         choices: [
-    //             {
-    //                 label: "",
-    //                 next: ""
-    //             },
-    //             {
-    //                 label: "",
-    //                 next: ""
-    //             }
-    //         ]
-    //     },
 
-       
+        "give": {
+            text: "As you slip, and begin to fall the fairy quickly flies to you and everything fades to white! When you awaking you are confused at first, but soon relize you have become a Tree!! The fairies have binded your soul and now your branches cover the forest caonopy. You are where the fairies call home!",
+            image: "",
+            choices: []
+        },
+
+        "fall": {
+            text: "You begin to fall, thinking about your life and all the things you've run from. You manage to orient yourself before the impact! As the flash of light hits your eyes, you wake up in your bed and think What's for breakfast?",
+            image: "",
+            choices: []
+        },
+
+        "discard": {
+            text: "You return home, wondering what had gotton into you. Why you had ever thought you could go on an adventure!",
+            image: "",
+            choices: []
+        },
+
+        "away": {
+            text: "After walking a while longer, you come across a shiny blue flower. It is so beautiful that you decide you must either draw it or pick it. Which do you do?",
+            image: "",
+            choices: [
+                {
+                    label: "draw",
+                    next: "draw"
+                },
+                {
+                    label: "pick",
+                    next: "pick"
+                }
+            ]
+        },
+
+        "draw": {
+            text: "You draw the flower, capturing only a fraction of its beauty with your quill. You bring the drawing home, somewhat disappointed, but over time, discover joy in sharing it with your friends and family, recounting the story of your days as a sorcerer with the aid of the sketch.",
+            image: "",
+            choices: []
+        },
+
+        "pick": {
+            text: "You pick the flower and bring it home, and all marvel at its brilliance. However, over time it fades and eventually crumbles to dust.",
+            image: "",
+            choices: [
+                {
+                    label: "",
+                    next: ""
+                },
+                {
+                    label: "",
+                    next: ""
+                }
+            ]
+        },
+
     }
 };
 
