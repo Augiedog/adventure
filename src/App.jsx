@@ -4,14 +4,15 @@ import story from "./story";
 import StoryPage from "./component/StoryPage";
 
 function App() {
-  // const [chapterId, setCurrentChapter] = useState(story)
+  // const [chapterId, setCurrentChapter] = useState(monster.dragon);
   const [currentPageId, setCurrentPageId] = useState(story.start);
 
   const currentPage = story.pages[currentPageId];
 
-  console.log(currentPageId, currentPage, 'chapters')
+  console.log(currentPage, 'chapters')
 
   const handleChoice = (nextPageId) => {
+    // setCurrentChapter(nextChapterId);
     setCurrentPageId(nextPageId);
   };
 

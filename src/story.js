@@ -13,11 +13,11 @@ const story = {
                 {
                     label: "Take the right path",
                     next: "right-path"
-                },
-                {
-                    label: "dragon",
-                    next: "monster.dragon"
                 }
+                // {
+                //     label: "dragon",
+                //     next: "monster.dragon"
+                // }
             ]
         },
 
@@ -265,8 +265,8 @@ const story = {
                     next: "keep-dragon"
                 },
                 {
-                    label: "",
-                    next: ""
+                    label: "Give the artifact to Hank",
+                    next: "give-dragon"
                 }
             ]
         },
@@ -294,15 +294,15 @@ const story = {
             image: "",
             choices: [
                 {
-                     label: "follow",
-                next: "follow-map"
-            },{
-                label: "discard",
-                next: "discard"
-            }]
-          },
+                    label: "follow",
+                    next: "follow-map"
+                }, {
+                    label: "discard",
+                    next: "discard"
+                }]
+        },
 
- "follow-map": {
+        "follow-map": {
             text: "The map leads to an ancient ruin filled with traps and treasures. Do you explore or turn back?",
             image: "",
             choices: [
@@ -316,7 +316,7 @@ const story = {
                 }
             ]
         },
-           
+
         "explore-map": {
             text: "You navigate the traps and discover a hidden treasure, becoming wealthy.",
             image: "",
@@ -378,17 +378,17 @@ const story = {
         },
 
         "pick": {
-            text: "You pick the flower and bring it home, and all marvel at its brilliance. However, over time it fades and eventually crumbles to dust.",
+            text: "You pick the flower and bring it home, and all marvel at its brilliance. However, over a short time it fades and eventually crumbles to dust.",
             image: "",
             choices: [
-                {
-                    label: "",
-                    next: ""
-                },
-                {
-                    label: "",
-                    next: ""
-                }
+                // {
+                //     label: "",
+                //     next: ""
+                // },
+                // {
+                //     label: "",
+                //     next: ""
+                // }
             ]
         },
 

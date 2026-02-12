@@ -2,7 +2,7 @@ import ChoiceButton from "./ChoiceButton";
 import './StoryPage.css'
 
 function StoryPage({ page, onChoose }) {
-  // console.log("props from story", page)
+  console.log("button info", onChoose)
   return (
     <div className="story-page">
       {page.image && (
