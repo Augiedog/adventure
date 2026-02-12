@@ -27,7 +27,7 @@ const story = {
             choices: [
                 {
                     label: "Follow the cat",
-                    next: "follow"
+                    next: "follow-cat"
                 },
                 {
                     label: "Continue on the path",
@@ -36,7 +36,7 @@ const story = {
             ]
         },
 
-        "follow": {
+        "follow-cat": {
             text: "You follow the cat to a colony of cats, nestled in a fort of warm blankets and subsisting off of inexplicably warm soup. They are content with you staying, but you wonder if you should alert the world to this magical safe haven.",
             image: "/art/kitty-cat-den.jpg",
             choices: [
@@ -294,21 +294,21 @@ const story = {
             image: "",
             choices: [
                 {
-                    label: "follow",
-                    next: "follow"
-                }, {
-                    label: "discard",
-                    next: "discard"
-                }]
-        },
+                     label: "follow",
+                next: "follow-map"
+            },{
+                label: "discard",
+                next: "discard"
+            }]
+          },
 
-        "follow": {
+ "follow-map": {
             text: "The map leads to an ancient ruin filled with traps and treasures. Do you explore or turn back?",
             image: "",
             choices: [
                 {
                     label: "explore",
-                    next: "explore"
+                    next: "explore-map"
                 },
                 {
                     label: "turn back",
@@ -316,8 +316,8 @@ const story = {
                 }
             ]
         },
-
-        "explore": {
+           
+        "explore-map": {
             text: "You navigate the traps and discover a hidden treasure, becoming wealthy.",
             image: "",
             choices: []
@@ -333,7 +333,7 @@ const story = {
                 },
                 {
                     label: "give",
-                    next: "give"
+                    next: "give-into"
                 }
             ]
         },
