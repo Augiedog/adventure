@@ -1,26 +1,6 @@
 const story = {
-    start: "forest-entrance",
 
     pages: {
-        "forest-entrance": {
-            text: "You are walking alone in a dark ancient forest, where deep into a path you come across a fork in the road.",
-            image: "/art/forest-entrance.png",
-            choices: [
-                {
-                    label: "Take the left path",
-                    next: "left-path"
-                },
-                {
-                    label: "Take the right path",
-                    next: "right-path"
-                }
-                // {
-                //     label: "dragon",
-                //     next: "monster.dragon"
-                // }
-            ]
-        },
-
         "left-path": {
             text: "You come across a stray cat. It scampers off down a small hole, just large enough for you to crawl through.",
             image: "/art/left-path.png",

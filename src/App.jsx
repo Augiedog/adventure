@@ -1,5 +1,5 @@
 import { useState } from "react";
-import story from "./story";
+import story from "./story/story";
 // import monster from "./monster"; 
 import StoryPage from "./component/StoryPage";
 

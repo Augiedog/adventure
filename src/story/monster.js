@@ -1,6 +1,6 @@
 const monster = {
-    "dragon": {
-            text: "A friendly monster appears and offers you a cookie.",
+    "cookie": {
+            text: "A friendly Monster appears and offers you a cookie.",
             image: "/art/dragon.jpg",
             choices: []
         }
