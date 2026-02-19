@@ -8,7 +8,7 @@ function App() {
   const [chapterId, pages] = currentPageId.split(":");
   const currentPage = story[chapterId][pages];
 
-  console.log(currentPageId, 'chapters')
+  console.log(currentpage, 'chapters')
 
   const handleChoice = (nextPageId) => {
     // setCurrentChapter(nextChapterId);
