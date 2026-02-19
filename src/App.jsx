@@ -1,12 +1,12 @@
 import { useState } from "react";
-import story from "./story/index";
+import story from "./story/index.js";
 import StoryPage from "./component/StoryPage";
 
 function App() {
-  const [currentPageId, setCurrentPageId] = useState("forest:entrance");
+  const [currentPageId, setCurrentPageId] = useState("forest:start");
 
-  const [chapterId, page] = currentPageId.split(":");
-  const currentPage = story[chapterId][page];
+  const [chapterId, pages] = currentPageId.split(":");
+  const currentPage = story[chapterId][pages];
 
   console.log(currentPageId, 'chapters')
 

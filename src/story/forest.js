@@ -8,16 +8,16 @@ export const forest = {
             choices: [
                 {
                     label: "Take the left path",
-                    next: "left-path"
+                    next: "cats:stray"
                 },
                 {
                     label: "Take the right path",
                     next: "right-path"
+                },
+                {
+                    label: "dragon",
+                    next: "monster:dragon"
                 }
-                // {
-                //     label: "dragon",
-                //     next: "monster.dragon"
-                // }
             ]
         },
     }
