@@ -1,15 +1,14 @@
 import { useState } from "react";
-import story from "./story/story";
-// import monster from "./monster"; 
+import story from "./story/index";
 import StoryPage from "./component/StoryPage";
 
 function App() {
-  // const [chapterId, setCurrentChapter] = useState(monster.dragon);
-  const [currentPageId, setCurrentPageId] = useState(story.start);
+  const [currentPageId, setCurrentPageId] = useState("forest:entrance");
 
-  const currentPage = story.pages[currentPageId];
+  const [chapterId, page] = currentPageId.split(":");
+  const currentPage = story[chapterId][page];
 
-  console.log(currentPage, 'chapters')
+  console.log(currentPageId, 'chapters')
 
   const handleChoice = (nextPageId) => {
     // setCurrentChapter(nextChapterId);

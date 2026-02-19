@@ -1,4 +1,4 @@
-const forest = {
+export const forest = {
     start: "entrance",
 
     pages: {
@@ -22,5 +22,3 @@ const forest = {
         },
     }
 };
-
-export default forest;
