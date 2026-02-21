@@ -1,5 +1,5 @@
 export const dragon = {
-    start: "cookie",
+    start: "hank",
     pages: {
         "hank": {
             text: "You come across a snoring dragon. On the other side of him, you see a shiny chest of treasure past the dragon. Another path would lead you away from the dragon altogether. Which path do you take?",

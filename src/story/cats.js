@@ -1,4 +1,6 @@
 export const cats = {
+    start: "follow",
+
     pages: {
         "end": {
             text: "You find a colony of magical cats.",
@@ -99,7 +101,7 @@ export const cats = {
             choices: [
                 {
                     label: "Investigate the rumors",
-                    next: "cats:investigate"
+                    next: "main:investigate"
                 },
                 {
                     label: "Ignore the rumors",

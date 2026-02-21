@@ -8,6 +8,10 @@ export const monster = {
             choices: [{
                 label: "Turn around",
                 next: "main:back"
+            },
+            {
+                label: "You eat the cookie",
+                next: "cats:start"
             }]
         }
     }

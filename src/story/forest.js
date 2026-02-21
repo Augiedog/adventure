@@ -12,11 +12,11 @@ export const forest = {
                 },
                 {
                     label: "Take the right path",
-                    next: "dragon:hank"
+                    next: "dragon:start"
                 },
                 {
                     label: "You see A large blue furry thing",
-                    next: "monster:cookie"
+                    next: "monster:start"
                 }
             ]
         },
