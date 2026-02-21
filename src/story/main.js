@@ -1,5 +1,7 @@
 export const main = {
 
+start: "continue";
+
     pages: {
         "rule": {
             text: "You become a feared sorcerer, ruling the land with an iron fist.",
