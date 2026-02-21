@@ -1,12 +1,16 @@
 export const main = {
 
-start: "continue",
+    start: "continue",
 
     pages: {
         "rule": {
             text: "You become a feared sorcerer, ruling the land with an iron fist.",
             image: "/art/evil-dark-magician.webp",
-            choices: []
+            choices: [{
+                label: "Use the magic cookie",
+                next: "dragon:start",
+                requiresFlag: "foundCookie"
+            }]
         },
         "leave": {
             text: "You return to your normal life, forever pondering the mysteries you've encountered.",
