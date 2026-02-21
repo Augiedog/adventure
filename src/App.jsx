@@ -17,7 +17,7 @@ function App() {
   }
 
   const currentPage = chapter.pages[resolvedPageId];
-  useEffect(() => {
+//  useEffect(() => {
     if (!currentPage?.effects) return;
 
     setGameState(prev => {
@@ -38,7 +38,7 @@ function App() {
       };
     });
 
-  }, [currentPageId]);
+ // }, [currentPageId]);
 
   if (!currentPage) {
     return <div>Page not found: {currentPageId}</div>;
