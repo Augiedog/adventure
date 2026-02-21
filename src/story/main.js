@@ -18,19 +18,17 @@ export const main = {
             choices: []
         },
 
-       
-
         "investigate": {
             text: "You discover another magical colony, but this time of mystical creatures.",
             image: "",
             choices: [
                 {
                     label: "Do you join them",
-                    next: "join"
+                    next: "main:join"
                 },
                 {
                     label: "Do you leave them?",
-                    next: "leave"
+                    next: "main:leave"
                 }
             ]
         },
@@ -47,11 +45,11 @@ export const main = {
             choices: [
                 {
                     label: "Take the staircase",
-                    next: "staircase"
+                    next: "main:staircase"
                 },
                 {
                     label: "Use the ladder",
-                    next: "ladder"
+                    next: "main:ladder"
                 }
             ]
         },
@@ -62,11 +60,11 @@ export const main = {
             choices: [
                 {
                     label: "Enter the hiddin passageway",
-                    next: "enter"
+                    next: "main:enter"
                 },
                 {
                     label: "Ignore the hiddin passageway",
-                    next: "leave"
+                    next: "main:leave"
                 }
             ]
         },
@@ -76,11 +74,11 @@ export const main = {
             choices: [
                 {
                     label: "Take the treasure",
-                    next: "take"
+                    next: "main:take"
                 },
                 {
                     label: "Leave the treasure",
-                    next: "leave"
+                    next: "main:leave"
                 }
             ]
         },
@@ -96,111 +94,7 @@ export const main = {
             choices: []
         },
 
-        "right-path": {
-            text: "You come across a snoring dragon. On the other side of him, you see a shiny chest of treasure past the dragon. Another path would lead you away from the dragon altogether. Which path do you take?",
-            image: "/art/dragon-sleeping.jpg",
-            choices: [
-                {
-                    label: "Path past the Dragon",
-                    next: "past"
-                },
-                {
-                    label: "Path away from the Dragon",
-                    next: "away"
-                }
-            ]
-        },
 
-        "past": {
-            text: "The dragon wakes up and sits upright. You only have a moment to respond, are you going to stay or run",
-            image: "",
-            choices: [
-                {
-                    label: "You stay still",
-                    next: "stay-dragon"
-                },
-                {
-                    label: "You run for it",
-                    next: "run-dragon"
-                }
-            ]
-        },
-
-        "stay-dragon": {
-            text: "You and the dragon have an uplifting conversation about local politics and become lifelong friends. The Dragon's name is Hank and he lets you ride him. One day, Hank asks for your help to retrieve a stolen artifact. Do you help him or decline?",
-            image: "/art/dragon-rider.jpg",
-            choices: [
-                {
-                    label: "Help Hank find the artifact",
-                    next: "help-dragon"
-                },
-                {
-                    label: "Decline the offer",
-                    next: "decline"
-                }
-            ]
-        },
-
-        "help-dragon": {
-            text: "You embark on a thrilling adventure with Hank and successfully retrieve the artifact. Do you keep it or give it back to Hank?",
-            image: "",
-            choices: [
-                {
-                    label: "Keep the artifact for your self",
-                    next: "keep-dragon"
-                },
-                {
-                    label: "Give the artifact to Hank",
-                    next: "give-dragon"
-                }
-            ]
-        },
-
-        "keep-dragon": {
-            text: "Hank is disappointed and dosen't really understand. You two get into a fight. You have gained immense power from the artifact and can easily hold your own against Hank. After laying Hank out unconscious, he never really comes around anymore. You've become lonly as no one understands you. The artifact has givin you a power that nothing can handle.",
-            image: "/art/104310.jpg",
-            choices: []
-        },
-
-        "give-dragon": {
-            text: "Hank is grateful and you both continue to have many more adventures together.",
-            image: "",
-            choices: []
-        },
-
-        "delcine": {
-            text: "Hank is disappointed but respects your decision. You continue to be friends and have smaller adventures together, but you don't get free rides anymore.",
-            image: "",
-            choices: []
-        },
-
-        "run-dragon": {
-            text: "Quickly, you run back to the cave's entrance. Sheepish, you turn towards home. However, you look down and see a map dropped by the dragon. Do you follow it or discard it?",
-            image: "",
-            choices: [
-                {
-                    label: "follow",
-                    next: "follow-map"
-                }, {
-                    label: "discard",
-                    next: "discard"
-                }]
-        },
-
-        "follow-map": {
-            text: "The map leads to an ancient ruin filled with traps and treasures. Do you explore or turn back?",
-            image: "",
-            choices: [
-                {
-                    label: "explore",
-                    next: "explore-map"
-                },
-                {
-                    label: "turn back",
-                    next: "back"
-                }
-            ]
-        },
 
         "explore-map": {
             text: "You navigate the traps and discover a hidden treasure, becoming wealthy.",
@@ -214,11 +108,11 @@ export const main = {
             choices: [
                 {
                     label: "fall",
-                    next: "fall"
+                    next: "main:fall"
                 },
                 {
                     label: "give",
-                    next: "give-into"
+                    next: "main:give"
                 }
             ]
         },

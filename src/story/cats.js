@@ -16,7 +16,7 @@ export const cats = {
                 },
                 {
                     label: "Continue on the path",
-                    next: "cats:continue"
+                    next: "main:continue"
                 }
             ]
         },
@@ -61,7 +61,7 @@ export const cats = {
                 },
                 {
                     label: "Leave the Library",
-                    next: "story:leave"
+                    next: "main:leave"
                 }
             ]
         },
