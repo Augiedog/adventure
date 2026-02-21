@@ -73,7 +73,7 @@ export const dragon = {
             choices: []
         },
 
-        "delcine": {
+        "decline": {
             text: "Hank is disappointed but respects your decision. You continue to be friends and have smaller adventures together, but you don't get free rides anymore.",
             image: "",
             choices: []
