@@ -51,6 +51,12 @@ export const cats = {
             ]
         },
 
+        "ignore": {
+            text: "You continue living peacefully with the cats.",
+            image: "",
+            choices: []
+        },
+
         "explore": {
             text: "The tunnel leads you to an ancient underground library filled with magical books.",
             image: "",

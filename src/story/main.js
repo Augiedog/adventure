@@ -12,12 +12,6 @@ export const main = {
             choices: []
         },
 
-        "ignore": {
-            text: "You continue living peacefully with the cats.",
-            image: "",
-            choices: []
-        },
-
         "investigate": {
             text: "You discover another magical colony, but this time of mystical creatures.",
             image: "",
