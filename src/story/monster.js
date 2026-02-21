@@ -11,7 +11,7 @@ export const monster = {
             },
             {
                 label: "You eat the cookie",
-                next: "cats:start"
+                next: "cats:read"
             }]
         }
     }
