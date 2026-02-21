@@ -1,6 +1,6 @@
 export const main = {
 
-start: "continue";
+start: "continue",
 
     pages: {
         "rule": {
