@@ -8,7 +8,7 @@ function App() {
 
   const [chapterId, pageId] = currentPageId.split(":");
   const currentPage = story[chapterId]?.pages?.[pageId];
-      if (!currentPage) {
+  if (!currentPage) {
     return <div>Page not found: {currentPageId}</div>;
   }
 

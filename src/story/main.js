@@ -141,11 +141,11 @@ export const main = {
             choices: [
                 {
                     label: "draw",
-                    next: "draw"
+                    next: "main:draw"
                 },
                 {
                     label: "pick",
-                    next: "pick"
+                    next: "main:pick"
                 }
             ]
         },

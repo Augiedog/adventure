@@ -5,10 +5,10 @@ export const monster = {
         "cookie": {
             text: "A friendly Monster appears and offers you a cookie.",
             image: "/art/cookieMonster.jpg",
-            choices: [ {
-                    label: "Turn around",
-                    next: "main:back"
-                }]
+            choices: [{
+                label: "Turn around",
+                next: "main:back"
+            }]
         }
     }
 

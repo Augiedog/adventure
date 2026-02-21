@@ -11,7 +11,7 @@ export const dragon = {
                 },
                 {
                     label: "Path away from the Dragon",
-                    next: "dragon:away"
+                    next: "main:away"
                 }
             ]
         },
@@ -107,5 +107,5 @@ export const dragon = {
             ]
         }
     }
-    
+
 };

@@ -87,7 +87,7 @@ export const cats = {
             choices: []
         },
 
-         "spread": {
+        "spread": {
             text: "After leaving the cat colony, you are never able to find it again; without proof, no one believes your story, which passes into legend nonetheless. Years later, you hear rumors of a similar colony.",
             image: "",
             choices: [
