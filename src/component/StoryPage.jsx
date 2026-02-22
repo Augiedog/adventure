@@ -26,7 +26,7 @@ function StoryPage({ page, onChoose, gameState }) {
 
       <p>{page.text}</p>
 
-      <div>
+      <div className="choices">
         {availableChoices.length === 0 ? (
           <h1>The End</h1>
         ) : (
@@ -42,36 +42,5 @@ function StoryPage({ page, onChoose, gameState }) {
     </div>
   );
 }
-
-// function StoryPage({ page, onChoose, gamState }) {
-//   // console.log("button info", onChoose)
-//   return (
-//     <div className="story-page">
-//       {page.image && (
-//         <img
-//           src={page.image}
-//           alt=""
-//           className="story-image"
-//         />
-//       )}
-
-//       <p className="story-text">{page.text}</p>
-
-//       <div className="choices">
-//         {page.choices.length === 0 ? (
-//           <h1>The End</h1>
-//         ) : (
-//           page.choices.map((choice, index) => (
-//             <ChoiceButton
-//               key={index}
-//               label={choice.label}
-//               onClick={() => onChoose(choice.next)}
-//             />
-//           ))
-//         )}
-//       </div>
-//     </div>
-//   );
-// }
 
 export default StoryPage;
