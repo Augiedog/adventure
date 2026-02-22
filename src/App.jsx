@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import story from "./story/index.js";
 import StoryPage from "./component/StoryPage";
 import './App.css';
@@ -7,7 +7,7 @@ function App() {
   const [currentPageId, setCurrentPageId] = useState("forest:start");
   const [gameState, setGameState] = useState({
     flags: {},
-    invetory: {},
+    inventory: {},
   })
   const [chapterId, pageId] = currentPageId.split(":");
   const chapter = story[chapterId];
@@ -17,7 +17,7 @@ function App() {
   }
 
   const currentPage = chapter.pages[resolvedPageId];
- useEffect(() => {
+  useEffect(() => {
     if (!currentPage?.effects) return;
 
     setGameState(prev => {
@@ -47,7 +47,10 @@ function App() {
   const handleChoice = (nextPageId) => {
     setCurrentPageId(nextPageId);
   };
+
+  console.log(currentPage, "currentPage")
   console.log(gameState, "gameState")
+  
   return (
     <div className="App">
       <StoryPage page={currentPage} onChoose={handleChoice} gameState={gameState} />
