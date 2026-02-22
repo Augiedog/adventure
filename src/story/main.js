@@ -9,7 +9,7 @@ export const main = {
             choices: [{
                 label: "Use the magic cookie",
                 next: "dragon:start",
-                requiresFlag: "foundCookie"
+                requiresItem: "magicCookie"
             }]
         },
         "leave": {
