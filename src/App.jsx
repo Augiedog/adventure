@@ -6,8 +6,8 @@ import './App.css';
 function App() {
   const [currentPageId, setCurrentPageId] = useState("forest:start");
   const [gameState, setGameState] = useState({
-    flags: {},
-    inventory: {},
+    flags: [],
+    inventory: [],
   })
   const [chapterId, pageId] = currentPageId.split(":");
   const chapter = story[chapterId];
@@ -38,7 +38,7 @@ function App() {
       };
     });
 
-  }, [currentPageId]);
+  }, [currentPageId], [currentPage.effects]);
 
   if (!currentPage) {
     return <div>Page not found: {currentPageId}</div>;
@@ -48,7 +48,7 @@ function App() {
     setCurrentPageId(nextPageId);
   };
 
-  console.log(currentPage, "currentPage")
+  // console.log(currentPage, "currentPage")
   console.log(gameState, "gameState")
   
   return (

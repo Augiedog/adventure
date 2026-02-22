@@ -105,6 +105,7 @@ export const main = {
         "back": {
             text: "You turn back, falling into a trap! You find yourself hanging from an edge over a cliff with a very long fall. A fariy appears before you and askes give yourself to me or fall",
             image: "",
+            effects: { removeItem: "magicCookie" },
             choices: [
                 {
                     label: "fall",

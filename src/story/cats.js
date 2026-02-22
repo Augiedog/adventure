@@ -77,6 +77,10 @@ export const cats = {
         "read": {
             text: "You gain immense knowledge and become a powerful wizard. You decide to use your powers to help the world or rule it.",
             image: "",
+             effects: {
+                setflag: "wizard",
+                addItem: "isWizard"
+            },
             choices: [
                 {
                     label: "Help the world",

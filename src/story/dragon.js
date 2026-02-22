@@ -70,7 +70,15 @@ export const dragon = {
         "give": {
             text: "Hank is grateful and you both continue to have many more adventures together.",
             image: "",
-            choices: []
+            effects: {
+                setFlag: "dragonLord",
+                addItem: "dragonLord"
+            },
+            choices: [{
+                    label: "You see a the Cookie Monster again",
+                    next: "monster:start",
+                    requiresItem: "magicCookie"
+                }]
         },
 
         "decline": {
