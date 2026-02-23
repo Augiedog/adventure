@@ -84,7 +84,7 @@ export const cats = {
             choices: [
                 {
                     label: "Help the world",
-                    next: "cats:help"
+                    next: "cats:hero"
                 },
                 {
                     label: "Rule the world",
@@ -93,7 +93,7 @@ export const cats = {
             ]
         },
 
-        "help": {
+        "hero": {
             text: "You become a legendary hero, known for your wisdom and kindness. And you have some pretty Awesome cat friends!",
             image: "/art/105706.jpg",
             choices: []

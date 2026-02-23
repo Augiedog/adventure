@@ -11,7 +11,7 @@ export const dragon = {
                 },
                 {
                     label: "Path away from the Dragon",
-                    next: "main:away"
+                    next: "main:flower"
                 }
             ]
         },
@@ -78,6 +78,9 @@ export const dragon = {
                     label: "You see a the Cookie Monster again",
                     next: "monster:start",
                     requiresItem: "magicCookie"
+                },{
+                    label: "Fly to the start",
+                    next: "forest:start"
                 }]
         },
 

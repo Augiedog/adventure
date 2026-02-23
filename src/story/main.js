@@ -94,8 +94,6 @@ export const main = {
             choices: []
         },
 
-
-
         "explore-map": {
             text: "You navigate the traps and discover a hidden treasure, becoming wealthy.",
             image: "",
@@ -136,7 +134,7 @@ export const main = {
             choices: []
         },
 
-        "away": {
+        "flower": {
             text: "After walking a while longer, you come across a shiny blue flower. It is so beautiful that you decide you must either draw it or pick it. Which do you do?",
             image: "",
             choices: [
@@ -158,17 +156,18 @@ export const main = {
         },
 
         "pick": {
-            text: "You pick the flower and bring it home, and all marvel at its brilliance. However, over a short time it fades and eventually crumbles to dust.",
+            text: "You pick the flower and ground you are standing on begind to crumble to dust. You are left with few options",
             image: "",
             choices: [
-                // {
-                //     label: "",
-                //     next: ""
-                // },
-                // {
-                //     label: "",
-                //     next: ""
-                // }
+                {
+                    label: "Fall",
+                    next: "main:fall"
+                },
+                {
+                    label: "You call Hank to pick you up",
+                    next: "cats:stray",
+                    requiresItem: "dragonLord"
+                }
             ]
         },
 

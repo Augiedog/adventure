@@ -1,5 +1,5 @@
 .story-page {
-    border: 10px solid #DD403A;
+    /* border: 10px solid #DD403A; */
     border-radius: 6px;
     padding: 5px;
     margin-bottom: 4%;
@@ -11,7 +11,7 @@
 
 .story-image {
     overflow: auto;
-    border: 10px solid #f7ea41;
+    /* border: 10px solid #f7ea41; */
     border-radius: 18px;
     display: flex;
     flex-basis: content;
@@ -19,7 +19,7 @@
 }
 
 .story-text {
-    border: 10px solid #18a07e;
+    /* border: 10px solid #18a07e; */
     border-radius: 5px;
     text-align: center;
     font-size: 20px;
@@ -28,6 +28,6 @@
 
 .choices {
     text-align: center;
-    border: 10px solid #1714cc;
+    /* border: 10px solid #1714cc; */
     border-radius: 29px;
 }
