@@ -20,8 +20,9 @@
 
 .story-text {
     border: 10px solid #18a07e;
+    border-radius: 5px;
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     flex: auto;
 }
 
