@@ -26,6 +26,7 @@
 }
 
 .choices {
-    border: 10px solid #1714cc;
     text-align: center;
+    border: 10px solid #1714cc;
+    border-radius: 29px;
 }

@@ -21,10 +21,10 @@ function StoryPage({ page, onChoose, gameState }) {
   return (
     <div className="story-page">
       {page.image && (
-        <img src={page.image} alt="" />
+        <img src={page.image} alt="" className="story-image" />
       )}
 
-      <p>{page.text}</p>
+      <div className="story-text"><p>{page.text}</p></div>
 
       <div className="choices">
         {availableChoices.length === 0 ? (
