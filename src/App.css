@@ -1,4 +1,17 @@
 .App {
   /* text-align: center; */
-   /* border: 10px solid #61dafb; */
+  /* border: 10px solid #61dafb; */
+  background-color: #f0c584;
+  height: 1086px;
+}
+
+p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+}
+/* when in wide format */
+@media (min-width: 650px) {
+  .App {
+    background-color: bisque;
+  }
 }

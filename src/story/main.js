@@ -59,11 +59,11 @@ export const main = {
             image: "",
             choices: [
                 {
-                    label: "Enter the hiddin passageway",
+                    label: "Enter the hidden passageway",
                     next: "main:enter"
                 },
                 {
-                    label: "Ignore the hiddin passageway",
+                    label: "Ignore the hidden passageway",
                     next: "main:leave"
                 }
             ]
