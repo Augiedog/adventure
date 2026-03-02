@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
-import story from "./story/index.js";
+import story from "./sciFi/index.js";
 import StoryPage from "./component/StoryPage";
 import './App.css';
 
 function App() {
-  const [currentPageId, setCurrentPageId] = useState("forest:start");
+  const [currentPageId, setCurrentPageId] = useState("academy:start");
   const [gameState, setGameState] = useState({
     flags: [],
     inventory: [],
@@ -48,7 +48,7 @@ function App() {
     setCurrentPageId(nextPageId);
   };
 
-  // console.log(currentPage, "currentPage")
+  console.log(currentPage, "currentPage")
   console.log(gameState, "gameState")
   
   return (
