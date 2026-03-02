@@ -2,7 +2,7 @@
   /* text-align: center; */
   /* border: 10px solid #61dafb; */
   background-color: #f0c584;
-  height: 1086px;
+  height: auto;
 }
 
 p {
@@ -13,5 +13,6 @@ p {
 @media (min-width: 650px) {
   .App {
     background-color: bisque;
+    height: 1086px;
   }
 }
