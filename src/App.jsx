@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import story from "./sciFi/index.js";
+import story from "./starBound/index.js";
 import StoryPage from "./component/StoryPage";
 import './App.css';
 
