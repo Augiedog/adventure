@@ -1,4 +1,4 @@
-export const academy = {
+export const start = {
   start: "graduation",
 
   pages: {

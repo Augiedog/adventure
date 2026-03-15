@@ -1,4 +1,4 @@
-export const forest = {
+export const start = {
     start: "entrance",
 
     pages: {

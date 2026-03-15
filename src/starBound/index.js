@@ -1,11 +1,11 @@
-import { academy } from "./academy";
+import { start } from "./academy";
 import { station } from "./station";
 import { nebula } from "./nebula";
 import { empire } from "./empire";
 import { voidChapter } from "./void";
 
 export const story = {
-    academy,
+    start,
     station,
     nebula,
     empire,

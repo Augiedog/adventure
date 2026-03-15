@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
-import story from "./starBound/index.js";
+import story from "./story/index.js";
 import StoryPage from "./component/StoryPage";
 import './App.css';
 
 function App() {
-  const [currentPageId, setCurrentPageId] = useState("academy:start");
+  const [currentPageId, setCurrentPageId] = useState("start:start");
   const [gameState, setGameState] = useState({
     flags: [],
     inventory: [],
