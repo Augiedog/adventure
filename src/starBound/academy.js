@@ -6,9 +6,9 @@ export const start = {
       text: "You stand at the edge of the launch platform of the Star Academy. Today you receive your first deep space assignment.",
       image: "/art/academy-graduation.png",
       choices: [
-        { label: "Request a science vessel", next: "academy:science" },
-        { label: "Request a combat frigate", next: "academy:combat" },
-        { label: "Take a risky experimental ship", next: "academy:experimental" }
+        { label: "Request a science vessel", next: "start:science" },
+        { label: "Request a combat frigate", next: "start:combat" },
+        { label: "Take a risky experimental ship", next: "start:experimental" }
       ]
     },
 
@@ -35,7 +35,7 @@ export const start = {
       image: "/art/experimental-ship.png",
       effects: { setFlag: "reckless", addItem: "voidCore" },
       choices: [
-        { label: "Engage warp immediately", next: "academy:lost" },
+        { label: "Engage warp immediately", next: "start:lost" },
         { label: "Plot a safe course to Orion Station", next: "station:start" }
       ]
     },

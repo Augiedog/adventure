@@ -6,8 +6,9 @@ size: large,
     width: 300px;
     height: 65px;
     margin: 10px;
+    padding-bottom: 5px;
     /* border: 10px solid #28af0d; */
-    border-radius: 18px;
+    border-radius: 37px;
     background-color: #0b096b;
     color: white;
     cursor: pointer;

@@ -80,7 +80,7 @@ export const dragon = {
                     requiresItem: "magicCookie"
                 },{
                     label: "Fly to the start",
-                    next: "forest:start"
+                    next: "start:start"
                 }]
         },
 
